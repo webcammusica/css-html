@@ -16,9 +16,9 @@
     /*Dentro de la página, se ubica el div con class: "contenido-i12-d12"
     con márgenes para paneles laterales izquierdo y derecho de 12em.*/
     div.contenido-i12-d12 {
+        border: inset;
         margin-left: 12.5em; 
         margin-right: 12.5em;
-        border: inset;
         text-align: left;
     }
 
@@ -30,23 +30,23 @@
 
     /*Estilos de los páneles laterales.*/
     div#lateral-i12 {
-       /* border-style: dashed;*/
-        width: 12em;
+        border-style: dashed;
         float: left; 
         margin-left: 0.2em;
+        width: 12em;
     }
     
     div#lateral-d12 {
-        width: 12em; 
         float: right; 
-        margin-right: 0.2em; 
+        margin-right: 0.2em;
+        width: 12em;  
     }
 
     /*Estilo del footer que */
     div.footer {
-        text-align: center;
         /*Esta línea evita que el footer rellene espacios vacios dejados por los float*/
-        clear: both;      
+        clear: both;
+        text-align: center;      
     }
 </style>
 
