@@ -1,8 +1,10 @@
 #css-html
 
-Ejercicios de CSS3, HTML5.
+Ejercicios de CSS3 y HTML5.
 
-Solo necesitas un computador y un editor de texto.
+Solo necesitas un computador y un editor 
+de texto para darle una cara atractiva a 
+tus vistas.
 
 Referencias:
 
