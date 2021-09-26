@@ -6,6 +6,13 @@
 
     <style type="text/css">
 
+    /*Es importante usar las siguientes sintaxis: 
+
+    ElementoHTML.clase para aplicar estilo CSS a una clase.
+
+    ElementoHTML#id para aplicar estilo CSS a un elemento específico.
+    */
+
     /*Dentro de la página, se ubica el div con class: "contenido-i12-d12"
     con márgenes para paneles laterales izquierdo y derecho de 12em.*/
     div.contenido-i12-d12 {
@@ -18,7 +25,7 @@
     /*Distancias verticales superior e inferior del borde de la div "contenido" al 
     texto.*/
     div#contenido {
-        /*padding: 0.5em;*/
+        padding: 0.5em;
     }
 
     /*Estilos de los páneles laterales.*/
@@ -27,16 +34,25 @@
         float: left; 
         margin-left: 0.2em;
     }
+    
     div#lateral-d12 {Lateral derecho de 12em
         width: 12em; 
         float: right; 
         margin-right: 0.2em; 
+    }
+
+    /*Estilo del footer que */
+    div.footer {
+        text-align: center;
+        /*Esta línea evita que el footer rellene espacios vacios dejados por los float*/
+        clear: both;      
     }
 </style>
 
 </head>
 <body>
     <div id="total" style="font-size: 1em;">
+
         CABECERA
         ...
         BOTONERA
@@ -50,15 +66,17 @@
         
         <div id="lateral-d12" class="lateral">
           LATERAL DERECHO
-      </div>
-      <div id="contenido" class="contenido-i12-d12">
-        <div id="contenido-interior">
+        </div>
+      
+        <div id="contenido" class="contenido-i12-d12">
+            <div id="contenido-interior">
             <...12.5em Aquí va el contenido de la página 12.5em...>
             </div>
         </div>
-        <div class="borra-flotaciones"></div>
-        PIE
-        ...
+
+        <div class="footer">
+           Texto del footer.
+        </div>
     </div>
 </body>
 
