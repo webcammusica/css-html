@@ -1,6 +1,6 @@
 #css-html
 
-Ejercicios para CSS3, HTML5, JavaScript.
+Ejercicios de CSS3, HTML5.
 
 Solo necesitas un computador y un editor de texto.
 
